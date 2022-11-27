@@ -51,6 +51,7 @@
 		"@typescript-eslint/no-empty-interface": "off",
 		"react/require-default-props": "off",
 		"no-use-before-define": ["error", { "variables": false }],
+		"no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
 		"prettier/prettier": [
 			"error",
 			{
@@ -59,6 +60,16 @@
 		],
 		"react/button-has-type": "off",
 		"@typescript-eslint/no-empty-function": "off",
-		"react/no-unknown-property": ["error", { "ignore": ["css"] }]
+		"react/no-unknown-property": ["error", { "ignore": ["css"] }],
+		"import/prefer-default-export": "off",
+		"react/function-component-definition": [2, { "namedComponents": ["arrow-function", "function-declaration"] }],
+		"jsx-a11y/anchor-is-valid": [
+			"error",
+			{
+				"components": ["Link"],
+				"aspects": ["invalidHref"]
+			}
+		],
+		"no-constant-condition": ["error", { "checkLoops": false }]
 	}
 }

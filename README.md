@@ -1,6 +1,4 @@
-# STCLab React Template
-
-STCLab에서 사용하는 React Template입니다.
+# React Template
 
 ## common
 
@@ -8,7 +6,7 @@ STCLab에서 사용하는 React Template입니다.
 
 ## features
 
-페이지에서 사용되는 1개의 기능 단위의 directory (ex.chart, form, signin...)
+페이지에서 사용되는 1개의 기능 단위의 directory (ex.signup, signin...)
 
 ## 개별 폴더
 
@@ -37,6 +35,8 @@ STCLab에서 사용하는 React Template입니다.
     router에 사용되는 파일들을 포함합니다.
 12. styles  
     style 관련 파일들을 포함합니다.(ex.palette, theme, globalstyle...)
+13. thunk
+    redux-thunk 파일들을 포함.
 
 ## 파일 및 변수,함수 명명법
 
@@ -69,7 +69,3 @@ STCLab에서 사용하는 React Template입니다.
 6. features
 
 - 가능하면 소문자 한단어로 사용. 불가능시 camel case로 사용.
-
-## 참고사항
-
-- index.ts는 유동적으로 사용
